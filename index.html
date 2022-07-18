@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- falta botar os links -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>MEI</title>
+</head>
+<body>
+    <div class="container">
+         
+    <aside>
+        <div class="top">
+            <div class="logo">
+                <!-- botar a logo ai nesse img -->
+                <img src="elai.png">
+                <h2>MEI<span class="danger"></span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </div>
+        </div>
+        <div class="sidebar">
+            <a href="#" class="active">
+                <span class="material-symbols-outlined">dashboard</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="https://elai.com.br/arquivos/loginHome.html" >
+                <span class="material-symbols-outlined">credit_card</span>
+                <h3>Cash</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">receipt</span>
+                <h3>Nota fiscal</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">calendar_month</span>
+                <h3>Agenda</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">chat</span>
+                <h3>mesagem</h3>
+                <span class="message-count">26</span>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">settings</span>     
+                <h3>Configuração</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">help</span>
+                <h3>Help</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">feed</span>
+                <h3>Extras</h3>
+            </a>
+            <a href="#">
+                <span class="material-symbols-outlined">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+            </aside> 
+
+            <main>
+                <h1>Dashboard</h1>
+
+                
+                    
+
+                    <div class="insights">
+                        <!-----END OF SALES------>
+                        <div class="sales">
+                            <span class="material-symbols-outlined">analytics</span>
+                            <div class="middle">
+                                <div class="left">
+                                    <h3>Total de vendas</h3>
+                                    <h1>$25,075</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>81%</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <div class="limit">
+                            <span class="material-symbols-outlined">monitoring</span>
+                            <div class="middle">
+                                <div class="left">
+                                    <h3>Seu limite</h3>
+                                    <h1>$6,075</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>40%</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <!----------END OF SALES---------->
+                        <!-----END OF SALES------>
+                     
+                        <!-----END OF SALES------>
+                        <div class="income">
+                            <span class="material-symbols-outlined">stacked_line_chart</span>
+                            <div class="middle">
+                                <div class="left">
+                                    <h3>Total da renda</h3>
+                                    <h1>$10,075</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>44%</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <!----------END OF SALES---------->
+                        <div class="expenses">
+                            <span class="material-symbols-outlined">bar_chart</span>
+                            <div class="middle">
+                                <div class="left">
+                                    <h3>Total de despesas</h3>
+                                    <h1>$14,075</h1>
+                                </div>
+                                <div class="progress">
+                                    <svg>
+                                        <circle cx="38" cy="38" r="36"></circle>
+                                    </svg>
+                                    <div class="number">
+                                        <p>61%</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <!----------END OF SALES---------->
+
+                    </div>
+                
+                
+
+
+                <div class="recent-orders">
+                    <h2>Tarefas</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome do produto</th>
+                                <th>Numero do produto</th>
+                                <th>Pagamentos</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mini drone dobrável</td>
+                                <td>8566</td>
+                                <td>Vencimento</td>
+                                <td class="warning">Pedente</td>
+                                <td class="primary">Detalhes</td>
+                            </tr>
+                            <tr>
+                                <td>Celular</td>
+                                <td>1000</td>
+                                <td>Vencimento</td>
+                                <td class="warning">Pedente</td>
+                                <td class="primary">Detalhes</td>
+                            </tr>
+                            <tr>
+                                <td>Mini drone dobrável</td>
+                                <td>8566</td>
+                                <td>Vencimento</td>
+                                <td class="warning">Pedente</td>
+                                <td class="primary">Detalhes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">Veja tudo</a>
+                </div>
+            </main>
+                <!---------END OF MAIN--------->
+                <div class="right">
+                    <div class="top">
+                        <button id="menu-btn">
+                            <span class="material-symbols-outlined">menu</span>
+                        </button>
+                        <div class="theme-toggle">
+                            <span class="material-symbols-outlined active">light_mode</span>
+                            <span class="material-symbols-outlined">dark_mode</span>
+                        </div>
+                        <div class="profile">
+                            <div class="info">
+                                <p>Olá, <b>Roberto!</b></p>
+                                <small class="text-muted">Admin</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="elai.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-------END OF TOP---------->
+                    <div class="recent-updates">
+                        <h2>Atualizações recentes</h2>
+                        <div class="updates">
+                            <div class="update">
+                                <div class="profile-photo">
+                                    <img src="elai.png">
+                                </div>
+                                <div class="message">
+                                    <p><b>Roberto</b> 
+                                    Acabou de agendar esss ordem.</p>
+                                    <small class="text-muted"> 2 minutos atras</small>
+                                </div>
+                            </div>
+                            <div class="update">
+                                <div class="profile-photo">
+                                    <img src="elai.png">
+                                </div>
+                                <div class="message">
+                                    <p><b>Roberto</b> 
+                                    Comprou um PC.</p>
+                                    <small class="text-muted"> 15 minutos atras</small>
+                                </div>
+                            </div>
+                            <div class="update">
+                                <div class="profile-photo">
+                                    <img src="elai.png">
+                                </div>
+                                <div class="message">
+                                    <p><b>Roberto</b> 
+                                    Pagou seus boletos.</p>
+                                    <small class="text-muted"> 3 Dias atras</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--------------END OF RECENT UPDATES-------------->
+                    <div class="sales-analytics">
+                        <h2>Análise de vendas</h2>
+                        <div class="item online">
+                            <div class="icon">
+                                <span class="material-symbols-outlined">shopping_cart </span>
+                            </div>
+                            <div class="right">
+                                <div class="info">
+                                    <h3>PEDIDOS ONLINE</h3>
+                                    <small class="text-muted">Ultimas 24 horas</small>
+                                </div>
+                                <h5 class="success">+39%</h5>
+                                <h3>9865</h3>
+                            </div>
+                        </div>
+                        <div class="item offline">
+                            <div class="icon">
+                                <span class="material-symbols-outlined">local_mall </span>
+                            </div>
+                            <div class="right">
+                                <div class="info">
+                                    <h3>PEDIDOS OFFLINE</h3>
+                                    <small class="text-muted">Ultimas 24 horas</small>
+                                </div>
+                                <h5 class="danger">-17%</h5>
+                                <h3>1100</h3>
+                            </div>
+                        </div>
+                        <div class="item customers">
+                            <div class="icon">
+                                <span class="material-symbols-outlined">person</span>
+                            </div>
+                            <div class="right">
+                                <div class="info">
+                                    <h3>NOVOS CLIENTES</h3>
+                                    <small class="text-muted">Ultimas 24 horas</small>
+                                </div>
+                                <h5 class="success">+25%</h5>
+                                <h3>849</h3>
+                            </div>
+                        </div>
+                        <div class="item add-product">
+                            <div>
+                                <span class="material-symbols-outlined">add</span>
+                                <h3>Adiocionar Novos Produtos</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
